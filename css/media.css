@@ -1,0 +1,49 @@
+/*@media*/
+@media screen and (max-width: 1200px) {
+  .col {
+    width: calc(100% / 4);
+  }
+  .d-flex {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .col {
+    width: calc(100% / 3);
+  }
+  .d-flex {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-nav {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-content {
+    width: calc(100% - 70px);
+  }
+  #call-to-action {
+    width: calc(100% - 70px);
+  }
+  .main-nav a,
+  .main-nav .playlist-box,
+  .main-nav .logo-m,
+  .install-app p,
+  .login-user h4 {
+    display: none;
+  }
+  .main-nav .logo-xs {
+    display: block;
+  }
+}

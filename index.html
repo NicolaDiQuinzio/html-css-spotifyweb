@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Spotify Web</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="d-flex">
+        <!--main nav-->
+        <nav class="main-nav padding1">
+          <div class="top-nav">
+            <img src="./img/logo.svg" alt="logo" class="logo" />
+            <img
+              src="./img/logo-small.svg"
+              alt="logo small"
+              class="logo-small"
+            />
+            <!-- asidenav -->
+            <section class="aside-nav">
+              <ul>
+                <li>
+                  <a href="#" class="align-center d-flex">
+                    <img src="./img/home.svg" alt="Home" />
+                    <span> Home</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="align-center d-flex">
+                    <img src="./img/search.svg" alt="Search" />
+                    <span>Cerca</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="align-center d-flex">
+                    <img src="./img/libreria.svg" alt="Library" />
+                    <span>La tua libreria</span></a
+                  >
+                </li>
+              </ul>
+            </section>
+            <!--Playlist-->
+            <div class="playlist-box paddingtop1">
+              <h3 class="u-case">Playlist</h3>
+              <ul class="paddingtop1">
+                <li>
+                  <i class="fa-solid fa-square-plus co-white-icon"></i>
+                  <a href="#" class="text-nav">Crea Playlist</a>
+                </li>
+                <li>
+                  <a href="#" class="text-nav"> Nome Playlist</a>
+                </li>
+                <li>
+                  <a href="#" class="text-nav">Nome Playlist</a>
+                </li>
+                <li>
+                  <a href="#" class="text-nav">Nome Playlist</a>
+                </li>
+                <li>
+                  <a href="#" class="text-nav">Nome Playlist</a>
+                </li>
+                <li>
+                  <a href="#" class="text-nav">Nome Playlist</a>
+                </li>
+                <li>
+                  <a href="#" class="text-nav">Nome Playlist</a>
+                </li>
+                <li>
+                  <a href="#" class="text-nav">Nome Playlist</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- botto-mnav -->
+          <div class="bottom-nav paddingtop1">
+            <div class="download">
+              <a href="#">
+                <img src="./img/download.svg" alt="download" />
+                <p class="text-nav">installa app</p>
+              </a>
+            </div>
+            <!--settings-->
+            <div class="profile paddingtop1">
+              <a href="#">
+                <img src="./img/profile.svg" alt="profile" />
+                <h4>John Doe</h4>
+              </a>
+            </div>
+          </div>
+        </nav>
+        <!--main content-->
+        <section class="main-content padding1">
+          <!--call to action-->
+          <div
+            id="call-to-action"
+            class="d-flex justify-end align-center padding1 u-case"
+          >
+            <a href="#" class="btn-call-to-action scale">Effettua l'upgrade</a>
+          </div>
+          <!-- main section-->
+          <div class="main-section">
+            <nav>
+              <ul class="d-flex justify-center interation-link">
+                <li>
+                  <a href="#">In evidenza</a>
+                </li>
+                <li>
+                  <a href="#">Podcast</a>
+                </li>
+                <li>
+                  <a href="#">Classifiche</a>
+                </li>
+                <li>
+                  <a href="#">generi e mood</a>
+                </li>
+                <li>
+                  <a href="#">Nuove uscite</a>
+                </li>
+                <li>
+                  <a href="#">Scopri</a>
+                </li>
+              </ul>
+            </nav>
+            <!--Recently played-->
+            <section class="padding1">
+              <h2>Recently played</h2>
+              <div class="row paddingtop1 d-flex">
+                <div class="col test2 padding1 text-center">
+                  <div class="cover-image">
+                    <img src="./img/metal_lifting.jpg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>Heavy Metal</h3>
+                    <p>Subtitle</p>
+                  </div>
+                </div>
+                <div class="col test2 padding1 text-center line-height">
+                  <div class="cover-image">
+                    <img src="./img/stranger.jpeg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>
+                      Stranger Things, Vol. 1 (a Netflix Original Series
+                      Soundtrack)
+                    </h3>
+                    <p>Subtitle</p>
+                  </div>
+                </div>
+                <div class="col test2 padding1 text-center line-height">
+                  <div class="cover-image">
+                    <img src="./img/aquietplace.jpeg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>A quiet place</h3>
+                    <p>Subtitle</p>
+                  </div>
+                </div>
+                <div class="col test2 padding1 text-center line-height">
+                  <div class="cover-image">
+                    <img src="./img/split.jpeg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>Split</h3>
+                    <p>Subtitle</p>
+                  </div>
+                </div>
+                <div class="col test2 padding1 text-center line-height">
+                  <div class="cover-image">
+                    <img src="./img/cure.jpeg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>A cure for wellness</h3>
+                    <p>Subtitle</p>
+                  </div>
+                </div>
+                <div class="col test2 padding1 text-center line-height">
+                  <div class="cover-image">
+                    <img src="./img/sinister.jpeg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>Sinister</h3>
+                    <p>Subtitle</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="paddingtop1">
+              <div class="line-height">
+                <h2>Creato per John Doe</h2>
+                <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+              </div>
+              <div class="row paddingtop1 d-flex">
+                <div class="col test2 padding1 text-center line-height">
+                  <div class="cover-image">
+                    <img src="./img/radar.jpeg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>Release Radar</h3>
+                  </div>
+                </div>
+                <div class="col test2 padding1 text-center line-height">
+                  <div class="cover-image">
+                    <img src="./img/mixdaily.jpeg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>Daily Mix 1</h3>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--Popular Artists -->
+            <section class="paddingtop1">
+              <div class="line-height">
+                <h2>Artisti più popolari</h2>
+                <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+              </div>
+              <div class="row paddingtop1 d-flex">
+                <div class="col test padding1 text-center line-height">
+                  <div class="cover-image">
+                    <img src="./img/youg.jpeg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>Lana Del Rey</h3>
+                  </div>
+                </div>
+                <div class="col test padding1 text-center line-height">
+                  <div class="cover-image">
+                    <img src="./img/einaudi.jpeg" alt="" />
+                  </div>
+                  <div class="paddingtop1 line-height">
+                    <h3>Ludovico Einaudi</h3>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </main>
+      <footer class="d-flex">
+        <nav id="playbar" class="footer-playbar d-flex align-center">
+          <div class="footer-left-right d-flex align-center">
+            <div class="col-footer">
+              <img
+                src="./img/sinister.jpeg"
+                alt="sinister"
+                class="footer-img padding1"
+              />
+            </div>
+            <div class="col-footer">
+              <h4 class="textsize08">Sinister</h4>
+              <p class="textsize06">Nome brano</p>
+            </div>
+            <div class="col-footer">
+              <i class="fa-regular fa-heart icon-footer icon-h"></i>
+              <i class="fa-regular fa-folder icon-footer"></i>
+            </div>
+          </div>
+          <div class="footer-mid d-flex flex-footer-col">
+            <div class="">
+              <i class="fa-solid fa-shuffle icon-s paddingicon"></i>
+              <i class="fa-solid fa-backward-step icon-s paddingicon"></i>
+              <i class="fa-regular fa-circle-play icon-m paddingicon"></i>
+              <i class="fa-solid fa-forward-step icon-s paddingicon"></i>
+              <i class="fa-solid fa-rotate-right icon-s paddingicon"></i>
+            </div>
+            <div class="paddingtop1">
+              <form class="d-flex flex-footer-center">
+                <label class="textsize06" for="minute">0.25</label>
+                <input
+                  type="range"
+                  id="minute"
+                  name="minute"
+                  min="0"
+                  max="10"
+                />
+                <label class="textsize06" for="minute">4.30</label>
+              </form>
+            </div>
+          </div>
+          <div class="footer-left-right d-flex flex-footer-center">
+            <div class="footer-icon-right">
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="flex-footer-center footer-icon-right">
+              <i class="fa-solid fa-tv"></i>
+            </div>
+            <div class="d-flex flex-footer-center footer-icon-right">
+              <i class="fa-solid fa-volume-high"></i>
+            </div>
+            <form class="d-flex flex-footer-center footer-bar-vol-right">
+              <input type="range" id="minute" name="minute" min="0" max="10" />
+            </form>
+          </div>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
